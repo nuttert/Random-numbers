@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F591E3432209117800E49784 /* RandomNumber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F591E3412209117800E49784 /* RandomNumber.cpp */; };
 		F5FE29D221FD986900A21304 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5FE29D121FD986900A21304 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F591E3412209117800E49784 /* RandomNumber.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RandomNumber.cpp; sourceTree = "<group>"; };
+		F591E3422209117800E49784 /* RandomNumber.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RandomNumber.hpp; sourceTree = "<group>"; };
 		F5FE29CE21FD986900A21304 /* January 27 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "January 27"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5FE29D121FD986900A21304 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,10 +41,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F591E3402209115E00E49784 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				F591E3412209117800E49784 /* RandomNumber.cpp */,
+				F591E3422209117800E49784 /* RandomNumber.hpp */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		F5FE29C521FD986900A21304 = {
 			isa = PBXGroup;
 			children = (
-				F5FE29D021FD986900A21304 /* January 27 */,
+				F5FE29D021FD986900A21304 /* Random numbers */,
 				F5FE29CF21FD986900A21304 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +66,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F5FE29D021FD986900A21304 /* January 27 */ = {
+		F5FE29D021FD986900A21304 /* Random numbers */ = {
 			isa = PBXGroup;
 			children = (
+				F591E3402209115E00E49784 /* Class */,
 				F5FE29D121FD986900A21304 /* main.cpp */,
 			);
-			path = "January 27";
+			path = "Random numbers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F5FE29C921FD986900A21304 /* Build configuration list for PBXProject "January 27" */;
+			buildConfigurationList = F5FE29C921FD986900A21304 /* Build configuration list for PBXProject "Random numbers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5FE29D221FD986900A21304 /* main.cpp in Sources */,
+				F591E3432209117800E49784 /* RandomNumber.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +145,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -190,7 +204,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -239,6 +253,7 @@
 		F5FE29D621FD986900A21304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -247,6 +262,7 @@
 		F5FE29D721FD986900A21304 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -255,7 +271,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F5FE29C921FD986900A21304 /* Build configuration list for PBXProject "January 27" */ = {
+		F5FE29C921FD986900A21304 /* Build configuration list for PBXProject "Random numbers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F5FE29D321FD986900A21304 /* Debug */,
